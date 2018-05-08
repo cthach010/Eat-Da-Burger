@@ -14,15 +14,6 @@ database:'burgers'
   });
 }
 
-
-var connection = mysql.createConnection({
-  port: 8889,
-  host: "127.0.0.1",
-  user: "root",
-  password: "root",
-  database: "burgers_db"
-});
-
 //connection.
 connection.connect(function(err) {
   if (err) {
