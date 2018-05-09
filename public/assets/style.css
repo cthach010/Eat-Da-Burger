@@ -1,4 +1,8 @@
 html {
     background-color: rgb(120, 212, 224);
-    font-family: sans-serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+/* body, html {
+    background-image: url(".public/assets/images/burger.background.jpg"); 
+
+    } */

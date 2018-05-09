@@ -1,6 +1,7 @@
 <div class="container bg"></div>
     <div class="col-md-4">
         <h1>Eat-Da-Burger App</h1>
+<link rel="burgerpic" href="public/assets/images/burger-pic.png">
     </div>
 
 
@@ -9,7 +10,7 @@
 
 		<br>
 	<h2>Burgers that are available!</h2>
-
+ 
     <ul>
         {{#each burgers}}
         {{#unless this.devoured}}
@@ -19,7 +20,7 @@
 
 	    <form action="/{{this.id}}?_method=PUT" method="POST">
 			    <input type="hidden" name="devoured" value="true">
-			     <button class="devouredButton" type="submit">Yummy!</button>
+			     <button class="devouredButton" type="submit">Devoured!</button>
 		</form>
 
              </li>
